@@ -34,10 +34,11 @@ a:hover {
 	display: block;
 	width: 100%;
 	max-width: 1000px;
-	height: auto;
+	height: 80vh;
 	margin: 0 auto;
 	border-radius: 25px;
 	overflow: hidden;
+	border: none;
 }
 
 .flying-image {
@@ -75,5 +76,6 @@ a:hover {
 	.calendar {
 		width: 100vw;
 		max-width: 100%;
+		height: 85vh;
 		border-radius: 18px;
 	}
