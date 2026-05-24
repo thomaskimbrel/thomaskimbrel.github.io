@@ -19,7 +19,7 @@ main {
 }
 
 .text {
-    text-align: center;
+    text-align: left;
 }
 
 a {
@@ -63,7 +63,8 @@ a:hover {
     }
 
     100% {
-        transform: translateX(-120vw);
+        transform: translateX(-12000vw);
+        transform: translateY(600vh);
     }
 }
 @media (max-width: 768px) {
