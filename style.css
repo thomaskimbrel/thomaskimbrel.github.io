@@ -1,0 +1,45 @@
+* {
+	margin: 10px;
+	padding: 0;
+	background: #ff87e4;
+}
+
+
+a {
+	color: #cc457e;
+	text-decoration: none;
+	font-family: "Comic Sans MS", "Comic Sans", sans-serif;	
+	padding: 0px 30px;
+	font-size: 50px;
+}
+
+a:hover {
+	text-decoration: italic;
+	color: #911d5b;
+}
+
+.calendar {
+	padding: 0px 65px;
+	width: 1000px;
+	height: 500px;
+S
+}
+
+.flying-image {
+  position: fixed; 
+  background: #00000000;
+  left: 6600px;
+  top: 900px;
+  width: 150px;
+  animation: fly-across 120s linear infinite;
+}
+
+@keyframes fly-across {
+  0% {
+    transform: translate(0,0);
+  }
+  100% {
+    transform: translate(calc(100vw - 80000px),-1500vh);
+  }
+
+}
